@@ -12,7 +12,7 @@ class User(Base):
     # Datos que nos da el perfil de Telegram del usuario
     username = Column(String, nullable=True)     # Puede ser None si el usuario no tiene @alias
     first_name = Column(String, nullable=False)   # El nombre visible (siempre obligatorio)
-    gender = Column(String, default="desconocido", nullable=False)
+    gender = Column(String, default="NB", nullable=False)
 
     is_active = Column(Boolean, default=True)
     # si se pone en False desactivamos al usuario
