@@ -1,1 +1,3 @@
-ZuriBot 0.2.5 Made By PatagonianBoy And Binryan
+ZuriBot 1.0.0 "Powerbot"
+
+Made By PatagonianBoy And Binryan
